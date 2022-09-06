@@ -20,5 +20,4 @@
             <TextBox Height="30" Width="230" Name="area"></TextBox>
             
         </StackPanel>
-        
 </Window>
