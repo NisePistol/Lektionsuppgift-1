@@ -5,19 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lektionsuppgift_1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="300" Background="#F0F0F0">
-        <StackPanel Margin="10" >
+        Title="Area Kalkylator" Height="300" Width="250" Background="#F0F0F0">
+        <StackPanel Margin="5">
 
-            <Label>Ange Bredd</Label>
-            <TextBox Height="30" Width="230" Name="bredd"></TextBox>
+            <Label Margin="5">Ange Bredd</Label>
+            <TextBox Margin="5" Height="20" Name="bredd"></TextBox>
 
-            <Label>Ange Höjd</Label>
-            <TextBox Height="30" Width="230" Name="höjd"></TextBox>
+            <Label Margin="5">Ange Höjd</Label>
+            <TextBox Margin="5" Height="20" Name="höjd"></TextBox>
 
-            <Button Margin="20" Height="40" Width="220" Click="KalkyleraArea">Kalkylera</Button>
+            <Button Margin="5" Height="30" Click="KalkyleraArea">Kalkylera</Button>
 
-            <Label>Area</Label>
-            <TextBox Height="30" Width="230" Name="area"></TextBox>
+            <Label Margin="5">Area</Label>
+            <TextBox Margin="5" Height="20" Name="area" IsReadOnly="True"></TextBox>
             
         </StackPanel>
 </Window>

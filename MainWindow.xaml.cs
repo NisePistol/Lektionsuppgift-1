@@ -26,7 +26,8 @@ namespace Lektionsuppgift_1
             InitializeComponent();
         }
 
-        private void KalkyleraArea(object sender, RoutedEventArgs e)
+        
+        void KalkyleraArea(object sender, RoutedEventArgs e)
         {      
             //Kollar om bredd är en int
             if(int.TryParse(bredd.Text, out int intbredd))
